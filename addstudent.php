@@ -27,6 +27,14 @@
 		          <input name="lastname" id="lastname" type="text" class="validate">
 		          <label for="last_name">Last Name</label>
 		        </div>
+		        <div class="input-field col s6">
+		          <input name="username" id="username" type="text" class="validate">
+		          <label for="username">Username</label>
+		        </div>
+		        <div class="input-field col s6">
+		          <input name="password" id="password" type="password" class="validate">
+		          <label for="password">Password</label>
+		        </div>
 		      </div>
 		      <div class="row">
 		        <div class="input-field col s12">

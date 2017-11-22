@@ -22,9 +22,5 @@
 	$q = "UPDATE `students` SET `firstname`='$firstname',`lastname`='$lastname' , `username`='$username' , `password`='$password' ,`regno`='$regno',`roomno`='$roomno',`gender`='$gender',`dob`='$dob',`contact`='$contact',`email`='$email',`address`='$address',`enrolldate`='$enrolldate',`fee`='$fee' WHERE `id`='$id'";
 	$res = mysqli_query($con,$q);
 
-	header("Location: students.php");
-
-
-
-
+	header("Location: profileforstudent.php?id=$id");
 ?>
